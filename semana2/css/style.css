@@ -1,0 +1,104 @@
+body{
+    font-family: Helvetica;
+}
+
+h1{
+    background-color: #336B98;
+    color: red;
+}
+h2{
+    background-color: #F58202;
+    color: green;
+}
+/* p{
+    background-color: yellow;
+    color: blue;
+}*/
+a{
+    background-color: blueviolet;
+    color: rgb(192, 168, 172);
+}
+/* La forma correcta en la cual se enalza un id en ccs es usando el # */
+#contenedor-1{
+    background-color: rgb(37, 168, 33);
+}
+
+#contenedor-2{
+    background-color: yellow;
+}
+.contenedor-principal{
+    background-color: violet;
+    padding: 30px;
+}
+
+.btn-ingresar{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-family: monospace;   
+}
+
+.btn-registro{
+    background-color: orange;
+    color: green;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-registro{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor-form{
+    border: 5px solid blue;
+    border-radius: 8px;
+}
+
+.contenedor-interno-from{
+    background-color: #fff;
+    text-align: center;
+}
+
+.titulo-form{
+    color: rgb(253, 1, 1);
+    background-color: #fff ;
+
+}
+
+.input-form{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    width: 400px;
+}
+
+.input-codigo{
+    width: 100px;
+}
+
+.input-numero {
+    width: 275px;
+}
+
+.btn-crear{
+    background-color: blue;
+    color: red;
+    border-radius: 8px;
+}
+
+.btn-ingresar:hover{
+    background-color: red;
+    color: #000;
+    text-decoration: none;
+}
+
+h1:first-child{
+    color: purple;
+}
+input:first-of-type{
+    color: red;
+}
