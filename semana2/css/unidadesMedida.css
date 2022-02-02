@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+   font-size: 3em; 
+   color: blueviolet;
+   font-family: Arial;
+}
+.parrafo{
+    font-size: 50px;
+}
+
+.banner{
+    background-color: rgb(192, 120, 120);
+    height: 20vh;
+    width: 50%;
+}
+
+.banner-medio{
+    background-color: rgb(155, 155, 184);
+    height: 20vh;
+    width: 70%;
+}
+
+.banner-dos {
+    background-color: blueviolet;
+    height: 40vh;
+    width: 80%;
+}
+
+.banner-tres{
+    height: 40vh;
+    background-color: yellow;
+    width: 100%;
+}
+
+.banner-cuatro{
+    background-color: rebeccapurple;
+    height: 40vh;
+    min-width: 50%;
+    max-width: 80%;
+}
+.banner-cinco{
+    width: 300px;
+    height: 300px ;
+    border: 12px solid yellow;
+}

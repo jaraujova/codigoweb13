@@ -58,9 +58,10 @@ a{
     border-radius: 8px;
 }
 
-.contenedor-interno-from{
-    background-color: #fff;
+.contenedor-interno-form{
+    padding: 20px;
     text-align: center;
+
 }
 
 .titulo-form{

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+.contenedor {
+
+}
+
+.contenedor-dos h2{
+    color: aqua;
+}
+.contenedor-tres a img{
+    border: 2px solid blue;
+}
+.menu-navegacion{
+    margin: 20px;
+}
+/* ul > li{
+    border: 2px solid green;
+
+}*/
+
+.link-navegador {
+    border: 2px solid rebeccapurple;
+}
+
+input[type="password"]{
+    color: maroon;
+}
+
+input[type="email"]{
+    color: blueviolet;
+}
+input[type="text"]{
+    color: blue;
+}
