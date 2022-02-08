@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:  auto auto auto auto;
+}
+
+.item{
+    border: solid coral;
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+    background-color: lightyellow;
+}
+.reset{
+    border: solid blue;
+    grid-column: 1/span 2;
+    grid-row: 6/4;
+}
+.equal{
+    border: solid purple;
+    grid-column: 3 /span 2;
+}

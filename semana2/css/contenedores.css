@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.contenedor-uno{
+    background-color: blue;
+}
+
+
+.contenedor-form{
+    border: 3px solid black;
+    height: 100vh;
+    background-color: rgb(232,215,200);
+}
+
+input{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid orange;
+}
+
+article{
+    height: 40vh;
+    background-color: rgba(123,234,133,0.6);
+}
