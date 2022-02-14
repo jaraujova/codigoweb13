@@ -6,48 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>challenge1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./challengeCSS/challenge1.css">
 </head>
 <body>
+    <div class="fondo"></div>
     <section>
         <!--Image-->
-    <div class="card">
+    <div>
         <div>
             <img class= "imagen-princiapal"src="./Images/challenge1/illustration-hero.svg" alt="">
         </div>
         <!--Contenido-->
+    <div class="part2">
         <div class="contenedor-one">
             <h2>Order Summary</h2>
             <p>You can now listen to millions of songs, audiobooks, and podscast on any device anywhere you like!</p>
         </div>
         <!--Plan-->
-        <div class="contenedor-two">
-            <div >
-                <img src="./Images/challenge1/icon-music.svg" alt="">
-            </div>
-            <div>
-                <h4>anual plan</h4>
-                <span>$59.99/year</span>
-            </div>
-            <div>
-                <a href="Change">Change</a>
-            </div>
 
+        <div class="contenedor-two">
+
+            <div >
+                <img class="image-music" src="./Images/challenge1/icon-music.svg" alt="">
+                <div class="contenedor-two-div">
+                    <h4>anual plan</h4>
+                    <span>$59.99/year</span>
+                </div>
+            </div>
+        
+            <div class="direccion">
+            
+                <a href="https://www.youtube.com/watch?v=lfreJbC1YOY">Change</a>
+            </div>
 
         </div>
+
         <!--Button-->
-        <div>
-            <div>
-                <button>proceed to payment</button>
-            </div>
-            <div>
-                <button>cancel order</button>
-            </div>
-            
+        <div class="guia">
+                <button class="buttons btn-azul"> proceed to payment</button>
+                <button class="buttons btn-bl">cancel order</button>
+        
         </div>
     </div>
+</div>
     </section>
 </body>
 </html>

@@ -4,42 +4,128 @@
 }
 
 body{
-    background-color:hsl(225, 100%, 94%);
+    background-color: hsl(225, 100%, 94%)  !important;
+    background: url("../Images/challenge1/pattern-background-desktop.svg");
+    height: 60vh;
+    background-repeat: no-repeat;
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
-}
-
-section{
-    height: 100vh;
-    border: solid;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20vh;
+}
+
+
+section{
+    height: 80vh;
+    width: 50vh;
+    border-radius: 25px;
+    background-color: white;
+}
+
+
+
+.imagen-princiapal{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    width: 50vh;
+}
+
+.part2{
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.contenedor-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 20vh;    
+}
+
+.contenedor-one h2{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 2vh;
+    font-weight: 900;
+    /*font-size: 32px;*/
+}
+
+.contenedor-one p{
+    /*font-size: 20px;*/
+    color: hsl(224, 23%, 55%);
 
 }
 
-.card{
-    /*border: solid;*/
-    width: 350px;
-    height: 500px;
+.contenedor-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 12vh;
     border-radius: 15px;
     background-color: hsl(225, 100%, 98%);
 }
 
-.imagen-princiapal{
-    width: 350px;
-    border-radius: 15px;
-}
-
-.contenedor-one{
-    border: solid;
-    justify-content: center;
-}
-
-.contenedor-two{
-    border: solid;
+.contenedor-two div{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+    padding-left: 20px;
 }
+
+.contenedor-two-div{
+    /*font-size: 20px;*/
+    flex-direction: column;
+}
+
+.contenedor-two-div h4{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.contenedor-two-div span{
+    color: hsl(225, 3%, 23%) !important;
+}
+
+.direccion{
+    margin: 20px;
+}
+
+.image-music{
+    object-fit: contain;
+}
+
+.gui{
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 41.5vh;
+    border-radius: 15px;
+    border: none;
+   /* font-size: 20px;*/
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn-azul{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.btn-bl{
+    background-color: transparent;
+    color: hsl(225, 3%, 23%);
+
