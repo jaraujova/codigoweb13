@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+button{
+    background-color: #8a2be2;
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.input-email{
+    margin-bottom: 2px;
+}
+
+.text-error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: none;
+}
